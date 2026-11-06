@@ -37,6 +37,20 @@ public class Variables {
         System.out.println(f);
     }
 
+    
+    /**
+     * Exercise 4: Creates and prints
+     * two long variables.
+     */
+    public static void exercise4() {
+        long g = 10000000000L;
+        long h = 20000000000L;
+
+        System.out.println(g);
+        System.out.println(h);
+    }
+
+
     /**
      * Runs all exercises.
      *
