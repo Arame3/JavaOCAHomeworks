@@ -2,8 +2,8 @@
 public class Variables {
 
     /**
-     * Homework 4 - Exercise 1.
-     * Creates two byte variables and prints their values.
+     * Exercise 1: Creates and prints
+     * two byte variables.
      */
     public static void exercise1() {
         byte a = 10;
@@ -14,11 +14,37 @@ public class Variables {
     }
 
     /**
-     * Main method to run the exercises.
+     * Exercise 2: Creates and prints
+     * two short variables.
+     */
+    public static void exercise2() {
+        short c = 1000;
+        short d = 2000;
+
+        System.out.println(c);
+        System.out.println(d);
+    }
+
+    /**
+     * Exercise 3: Creates and prints
+     * two int variables.
+     */
+    public static void exercise3() {
+        int e = 100000;
+        int f = 200000;
+
+        System.out.println(e);
+        System.out.println(f);
+    }
+
+    /**
+     * Runs all exercises.
      *
      * @param args command-line arguments
      */
     public static void main(String[] args) {
         exercise1();
+        exercise2();
+        exercise3();
     }
 }
